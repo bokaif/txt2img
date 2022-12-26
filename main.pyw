@@ -172,7 +172,7 @@ width_entry = tk.Entry(root, width=34)
 height_label = tk.Label(root, text="Image Height (px):")
 height_entry = tk.Entry(root, width=34)
 font_label = tk.Label(root, text="Font:")
-font_button = tk.Button(root, text="assets/OpenSans-Regular.ttf", command=choose_font, width=30, height=1)
+font_button = tk.Button(root, text="OpenSans-Regular.ttf", command=choose_font, width=30, height=1)
 generate_button = tk.Button(root, text="Generate", command=generate, width=46, height=2, bg="#685ac4", fg="white")
 
 bg_color_label.grid(row=0, column=0, padx=4, pady=(5, 0), sticky="e")
